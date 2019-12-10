@@ -1,9 +1,35 @@
 *, html, body {
     padding: 0;
     margin: 0;
-    background-color: black;
-    background-image: "Backgroundv1.svg";
-    background-repeat: repeat-x;
+
+}
+body {
+  background-color: black;
+  background-image: url(../img/Backgroundv1.png);
+  background-size: auto;
+  // https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+  // https://www.mozilla.org/en-US/firefox/developer/
+
+  // https://mozilladevelopers.github.io/playground/css-grid/
+
+  // download and install it
+    // background-repeat: repeat-x;
+}
+
+
+.container {
+  display: grid;
+  width: 800px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  grid-gap: 1rem;
+  background-color: #000;
+  margin: 0 auto;
+  // make sure the element you want to center has a defined with and then use margin: 0 auto to center
+}
+.item {
+  background-color: #fff;
 }
 /*<---------Home Page-------->*/
 
