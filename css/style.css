@@ -1,37 +1,42 @@
 *, html, body {
-    padding: 0;
-    margin: 0;
-    background-color: black;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  background-image: "Backgroundv1.svg";
+  background-repeat: repeat-x;
 }
-/*<---------Home Page-------->*/
 
+/*<---------Home Page-------->*/
 header {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+  color: #a61b34;
+  font-family: house-script,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
 }
 
 /*<---------Recipes Page-------->*/
-
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #a61b34;
-    color: white;
-  }
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #a61b34;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
