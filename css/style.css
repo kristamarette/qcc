@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   background-color: black;
-  background-image: "Backgroundv1.svg";
+  background-image: url("Backgroundv1.svg");
   background-repeat: repeat-x;
 }
 
