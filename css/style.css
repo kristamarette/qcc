@@ -1,9 +1,29 @@
 *, html, body {
   padding: 0;
   margin: 0;
+}
+
+body {
   background-color: black;
-  background-image: url("Backgroundv1.svg");
-  background-repeat: repeat-x;
+  background-image: url(../img/Backgroundv1.png);
+  background-size: auto;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  width: 800px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 150px 150px;
+      grid-template-rows: 150px 150px;
+  grid-gap: 1rem;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #fff;
 }
 
 /*<---------Home Page-------->*/
