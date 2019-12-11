@@ -138,11 +138,21 @@ div.container {
   // make sure the element you want to center has a defined with and then use margin: 0 auto to center
 }
 
-.item {
-  background-color: #fff;
+div.item {
+  // background-color: #fff;
   border: solid #a61b34 3px;
   border-radius: 10px;
-  background-image: linear-gradient(130deg, #ddd 0%, #ffffff 85%, #dddddd 100%);
+  background-image: linear-gradient(130deg, #ddd 100%, #ffffff 75%, #dddddd 100%);
   padding: 2px;
 
+}
+
+div.item h3 {
+  font-family: 'house-script', 'sans-serif';
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
 }

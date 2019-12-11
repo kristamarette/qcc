@@ -100,22 +100,33 @@ header h2 {
   color: white;
 }
 
-.container {
+div.container {
   display: -ms-grid;
   display: grid;
-  width: 800px;
+  width: 80%;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 150px 150px;
       grid-template-rows: 150px 150px;
   grid-gap: 1rem;
-  background-color: #000;
+  background-color: rbga(0, 0, 0, 0.5);
   margin: 0 auto;
 }
 
-.item {
-  background-color: #fff;
+div.item {
   border: solid #a61b34 3px;
   border-radius: 10px;
+  background-image: linear-gradient(130deg, #ddd 100%, #ffffff 75%, #dddddd 100%);
+  padding: 2px;
+}
+
+div.item h3 {
+  font-family: 'house-script', 'sans-serif';
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
