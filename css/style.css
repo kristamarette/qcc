@@ -1,44 +1,83 @@
-*, html, body {
+*,
+html,
+body {
   padding: 0;
   margin: 0;
 }
 
+/*<---------Home Page-------->*/
 body {
   background-color: black;
   background-image: url(../img/Backgroundv1.png);
-  background-size: auto;
+  background-size: cover;
 }
 
-.container {
-  display: -ms-grid;
-  display: grid;
-  width: 800px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 150px 150px;
-      grid-template-rows: 150px 150px;
-  grid-gap: 1rem;
-  background-color: #000;
-  margin: 0 auto;
-}
-
-.item {
-  background-color: #fff;
-}
-
-/*<---------Home Page-------->*/
-header {
+header h1 {
   color: #a61b34;
-  font-family: house-script,sans-serif;
-  font-weight: 400;
+  font-family: house-script, sans-serif;
+  font-weight: 4em;
   font-style: normal;
   font-size: 5em;
+  text-align: center;
+}
+
+img#chevron {
+  width: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#shaker {
+  width: 20%;
+  margin-top: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.socialMedia {
+  float: right;
+  overflow: auto;
 }
 
 /*<---------Recipes Page-------->*/
+.recipesBack {
+  background-color: black;
+  background-image: url(../img/Backgroundv2.png);
+  background-size: contain;
+}
+
+header img#logo {
+  margin: 10px 0px 0px 0px;
+  width: 11%;
+  background-color: #fff;
+  z-index: 1;
+  float: Left;
+}
+
+header h2 {
+  background-color: #fff;
+  color: #a61b34;
+  font-family: house-script, sans-serif;
+  font-style: normal;
+  font-size: 5em;
+  z-index: 2;
+}
+
 .topnav {
+  clear: both;
+  margin-top: auto;
   overflow: hidden;
-  background-color: #333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(darkgrey), to(black));
+  background-image: linear-gradient(black, darkgrey, black);
 }
 
 .topnav a {
@@ -47,7 +86,8 @@ header {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
 }
 
 .topnav a:hover {
@@ -58,5 +98,24 @@ header {
 .topnav a.active {
   background-color: #a61b34;
   color: white;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  width: 800px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 150px 150px;
+      grid-template-rows: 150px 150px;
+  grid-gap: 1rem;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #fff;
+  border: solid #a61b34 3px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
