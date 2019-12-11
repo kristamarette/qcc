@@ -127,9 +127,9 @@ header h2 {
   color: white;
 }
 
-.container {
+div.container {
   display: grid;
-  width: 800px;
+  width: 80%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 150px 150px;
   grid-gap: 1rem;
