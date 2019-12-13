@@ -142,8 +142,9 @@ div.item {
   // background-color: #fff;
   border: solid #a61b34 3px;
   border-radius: 10px;
-  background-image: linear-gradient(130deg, #ddd 100%, #ffffff 75%, #dddddd 100%);
+  background-image: linear-gradient(130deg, #ddd 50%, #ffffff 100%, #dddddd 50%);
   padding: 2px;
+  overflow: auto;
 
 }
 
