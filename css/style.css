@@ -100,7 +100,7 @@ header h2 {
   color: white;
 }
 
-div.container {
+div.recipe-list {
   display: -ms-grid;
   display: grid;
   width: 80%;
