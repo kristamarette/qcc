@@ -72,7 +72,7 @@ header h2 {
   z-index: 2;
 }
 
-.topnav {
+#topnav {
   clear: both;
   margin-top: auto;
   overflow: hidden;
@@ -80,7 +80,7 @@ header h2 {
   background-image: linear-gradient(black, darkgrey, black);
 }
 
-.topnav a {
+#topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -90,17 +90,17 @@ header h2 {
   font-family: Helvetica, sans-serif;
 }
 
-.topnav a:hover {
+#topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+#topnav a.active {
   background-color: #a61b34;
   color: white;
 }
 
-div.recipe-list {
+.recipe-list {
   display: -ms-grid;
   display: grid;
   width: 80%;
@@ -113,7 +113,7 @@ div.recipe-list {
   margin: 0 auto;
 }
 
-div.item {
+li {
   border: solid #a61b34 3px;
   border-radius: 10px;
   background-image: linear-gradient(130deg, #ddd 50%, #ffffff 100%, #dddddd 50%);
@@ -121,7 +121,7 @@ div.item {
   overflow: auto;
 }
 
-div.item h3 {
+h3 {
   font-family: 'house-script', 'sans-serif';
   font-size: 1.5em;
   font-style: normal;
