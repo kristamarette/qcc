@@ -46,16 +46,16 @@ $(document).ready(function () {
     var content = $('#container');
     var MyObject = {
         navBrandy: [$(this).data('brandy')],
-        navCordials: $(this).data('cordials');
-        navGin: $(this).data('gin');
-        navMezcal: $(this).data('mezcal');
-        navRum: $(this).data('rum');
-        navScotch: $(this).data('scotch');
-        navSherry: $(this).data('sherry');
-        navTequila: $(this).data('tequila');
-        navVodka: $(this).data('vodka');
-        navWhiskey: $(this).data('whiskey');
-        navDealer: $(this).data('');
+        navCordials: $(this).data('cordials'),
+        navGin: $(this).data('gin'),
+        navMezcal: $(this).data('mezcal'),
+        navRum: $(this).data('rum'),
+        navScotch: $(this).data('scotch'),
+        navSherry: $(this).data('sherry'),
+        navTequila: $(this).data('tequila'),
+        navVodka: $(this).data('vodka'),
+        navWhiskey: $(this).data('whiskey'),
+        navDealer: $(this).data(''),
 
 
     };
@@ -109,7 +109,7 @@ $(document).ready(function () {
     $('#navBrandy').on('click', function () {
         content.append(myObject.navWhiskey);
     })
-    
+
     console.log(myObject.navDealer);
     $('#navBrandy').on('click', function () {
         content.append(myObject.navDealer);
