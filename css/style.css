@@ -80,6 +80,17 @@ header h2 {
   background-image: linear-gradient(black, darkgrey, black);
 }
 
+#topnav button a {
+  color: #f2f2f2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(darkgrey), to(black));
+  background-image: linear-gradient(black, darkgrey, black);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
 #topnav button {
   float: left;
   color: #f2f2f2;
