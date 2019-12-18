@@ -47,7 +47,7 @@ $(document).ready(function () {
     var MyObject = {
         navBrandy: 'brandy',
         navCordials: 'cordials',
-        navGin: $(this).data('gin'),
+        navGin: 'gin',
         navMezcal: $(this).data('mezcal'),
         navRum: $(this).data('rum'),
         navScotch: $(this).data('scotch'),
