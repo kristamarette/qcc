@@ -45,8 +45,8 @@ $(document).ready(function () {
 
     var content = $('#container');
     var MyObject = {
-        navBrandy: [$(this).data('brandy')],
-        navCordials: $(this).data('cordials'),
+        navBrandy: 'brandy',
+        navCordials: 'cordials',
         navGin: $(this).data('gin'),
         navMezcal: $(this).data('mezcal'),
         navRum: $(this).data('rum'),
@@ -61,57 +61,57 @@ $(document).ready(function () {
     };
 
     console.log(myObject.navBrandy);
-    $('#navBrandy').on('click', function () {
+    $('#navBrandy').on('click', function (){
         content.append(myObject.navBrandy);
     })
 
     console.log(myObject.navCordials);
-    $('#navCordials').on('click', function () {
+    $('#navCordials').on('click', function (){
         content.append(myObject.navCordials);
     })
 
     console.log(myObject.navGin);
-    $('#navGin').on('click', function () {
+    $('#navGin').on('click', function (){
         content.append(myObject.navGin);
     })
 
     console.log(myObject.navMezcal);
-    $('#navMezcal').on('click', function () {
+    $('#navMezcal').on('click', function (){
         content.append(myObject.navMezcal);
     })
 
     console.log(myObject.navRum);
-    $('#navRum').on('click', function () {
+    $('#navRum').on('click', function (){
         content.append(myObject.navRum);
     })
 
     console.log(myObject.navScotch);
-    $('#navScotch').on('click', function () {
+    $('#navScotch').on('click', function (){
         content.append(myObject.navScotch);
     })
 
     console.log(myObject.navSherry);
-    $('#navSherry').on('click', function () {
+    $('#navSherry').on('click', function (){
         content.append(myObject.navSherry);
     })
 
     console.log(myObject.navTequila);
-    $('#navTequila').on('click', function () {
+    $('#navTequila').on('click', function (){
         content.append(myObject.navTequila);
     })
 
     console.log(myObject.navVodka);
-    $('#navVodka').on('click', function () {
+    $('#navVodka').on('click', function (){
         content.append(myObject.navVodka);
     })
 
     console.log(myObject.navWhiskey);
-    $('#navWhiskey').on('click', function () {
+    $('#navWhiskey').on('click', function (){
         content.append(myObject.navWhiskey);
     })
 
     console.log(myObject.navDealer);
-    $('#navDealer').on('click', function () {
+    $('#navDealer').on('click', function (){
         content.append(myObject.navDealer);
     })
     //document.ready ends here
