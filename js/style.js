@@ -38,93 +38,83 @@ let rotateMe = anime({
 document.querySelector('img#shaker')
     .addEventListener('mouseover', () => {
         rotateMe.play();
-    })
+    });
 
 // <----------Recipe Sort---------->
+$(document).ready(function () {
+
+    var content = $('#container');
+    var MyObject = {
+        navBrandy: [$(this).data('brandy')],
+        navCordials: $(this).data('cordials');
+        navGin: $(this).data('gin');
+        navMezcal: $(this).data('mezcal');
+        navRum: $(this).data('rum');
+        navScotch: $(this).data('scotch');
+        navSherry: $(this).data('sherry');
+        navTequila: $(this).data('tequila');
+        navVodka: $(this).data('vodka');
+        navWhiskey: $(this).data('whiskey');
+        navDealer: $(this).data('');
 
 
+    };
 
+    console.log(myObject.navBrandy);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navBrandy);
+    })
 
+    console.log(myObject.navCordials);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navCordials);
+    })
 
+    console.log(myObject.navGin);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navGin);
+    })
 
+    console.log(myObject.navMezcal);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navMezcal);
+    })
 
+    console.log(myObject.navRum);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navRum);
+    })
 
+    console.log(myObject.navScotch);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navScotch);
+    })
 
-// $(function () {
+    console.log(myObject.navSherry);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navSherry);
+    })
 
-//     document.querySelector('#navBrandy').addEventListener('change', function (evt){
-//         updateProductView("brandy", evt.target.onClick);
-//     });
-//     document.querySelector('#navCordials').addEventListener('change', function (evt){
-//         updateProductView("cordials", evt.target.onClick);
-//     });
-//     document.querySelector('#navGin').addEventListener('change', function (evt){
-//         updateProductView("gin", evt.target.onClick);
-//     });
-//     document.querySelector('#navMezcal').addEventListener('change', function (evt){
-//         updateProductView("mezcal", evt.target.onClick);
-//     });
-//     document.querySelector('#navRum').addEventListener('change', function (evt){
-//         updateProductView("rum", evt.target.onClick);
-//     });
-//     document.querySelector('#navScotch').addEventListener('change', function (evt){
-//         updateProductView("scotch", evt.target.onClick);
-//     });
-//     document.querySelector('#navSherry').addEventListener('change', function (evt){
-//         updateProductView("sherry", evt.target.onClick);
-//     });
-//     document.querySelector('#navTequila').addEventListener('change', function (evt){
-//         updateProductView("tequila", evt.target.onClick);
-//     });
-//     document.querySelector('#navVodka').addEventListener('change', function (evt){
-//         updateProductView("vodka", evt.target.onClick);
-//     });
-//     document.querySelector('#navWhiskey').addEventListener('change', function (evt){
-//         updateProductView("whiskey", evt.target.onClick);
-//     });
-//     document.querySelector('#navDealer').addEventListener('change', function (evt){
-//         updateProductView("dealer", evt.target.onClick);
-//     });
-  
-// })
+    console.log(myObject.navTequila);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navTequila);
+    })
 
-// function updateProductView(categoryName, bVisible) {
-//     var dataSelectorVal = "";
-//     switch (categoryName) {
-//         case "brandy":
-//         dataSelectorVal = "li[data-type='brandy']";
-//         break;
-//         case "cordials":
-//         dataSelectorVal = "li[data-type='cordials']";
-//         break;
-//         case "gin":
-//         dataSelectorVal = "li[data-type='gin']";
-//         break;
-//         case "mezcal":
-//         dataSelectorVal = "li[data-type='mezcal']";
-//         break;
-//         case "rum":
-//         dataSelectorVal = "li[data-type='rum']";
-//         break;
-//         case "scotch":
-//         dataSelectorVal = "li[data-type='scotch']";
-//         break;
-//         case "sherry":
-//         dataSelectorVal = "li[data-type='sherry']";
-//         break;
-//         case "tequila":
-//         dataSelectorVal = "li[data-type='tequila']";
-//         break;
-//         case "vodka":
-//         dataSelectorVal = "li[data-type='vodka']";
-//         break;
-//         case "whiskey":
-//         dataSelectorVal = "li[data-type='whiskey']";
-//         break;
-//         case "dealer":
-//         dataSelectorVal = "li[data-type='dealer']";
-//         break;
-//     }
-//     $("li").has(dataSelectorVal).css('display', bVisible ? "" : "none");
-// }
+    console.log(myObject.navVodka);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navVodka);
+    })
 
+    console.log(myObject.navWhiskey);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navWhiskey);
+    })
+    
+    console.log(myObject.navDealer);
+    $('#navBrandy').on('click', function () {
+        content.append(myObject.navDealer);
+    })
+    //document.ready ends here
+});
+
+// });
